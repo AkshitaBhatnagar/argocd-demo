@@ -1,6 +1,6 @@
 clusters:
-- name: minikube
-  destinationServer: https://kubernetes.default.svc
+- name: openshift
+  destinationServer: https://api.cluster-p5fbr.p5fbr.sandbox3063.opentlc.com:6443
   apps:
     prometheus:
       enabled: true
