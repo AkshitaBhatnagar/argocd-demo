@@ -1,6 +1,6 @@
 clusters:
 - name: openshift
-  destinationServer: https://api.cluster-p5fbr.p5fbr.sandbox3063.opentlc.com:6443
+  destinationServer: https://kubernetes.default.svc
   apps:
     prometheus:
       enabled: true
